@@ -1,0 +1,27 @@
+{
+    "name": "play_with_extensions",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "fish": "github:kiki-lee/fish#v0.0.1",
+        "multiplayer": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "fancyPlayers.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
